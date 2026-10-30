@@ -1,4 +1,47 @@
 {
   "format": 1,
-  "mods": []
+  "mods": [
+    {
+      "id": "rain",
+      "folder": "Rain",
+      "name": "Rain",
+      "author": "Jay",
+      "version": "1.0",
+      "category": "textures",
+      "description": "test",
+      "thumbnail": "mods/rain/cover.png",
+      "url": "https://github.com/MaryNCRT/UMK3-IOS-Mod-Hub/releases/download/rain-v1.0/rain-1.0.zip",
+      "size": 1694840,
+      "sha256": "2ea22b16500f4444a02bf6059511a5799e99c4acf1bc5d101e133eb653c4ed61",
+      "published": "2026-10-30"
+    },
+    {
+      "id": "sonya-blade-mkx",
+      "folder": "Sonya Blade MKX",
+      "name": "Sonya Blade MKX",
+      "author": "MaryNCRT",
+      "version": "1.0",
+      "category": "mixed",
+      "description": "",
+      "thumbnail": "mods/sonya-blade-mkx/cover.png",
+      "url": "https://github.com/MaryNCRT/UMK3-IOS-Mod-Hub/releases/download/sonya-blade-mkx-v1.0/sonya-blade-mkx-1.0.zip",
+      "size": 142221015,
+      "sha256": "3a63c157e9e02b380ade3b00f5efbe8fa1bd95e788cf0dbe85291751f73c1dce",
+      "published": "2026-10-30"
+    },
+    {
+      "id": "hd-ninjas",
+      "folder": "HD NINJAS",
+      "name": "HD CHARACTERS",
+      "author": "MaryNCRT",
+      "version": "1.0",
+      "category": "textures",
+      "description": "",
+      "thumbnail": "mods/hd-ninjas/cover.png",
+      "url": "https://github.com/MaryNCRT/UMK3-IOS-Mod-Hub/releases/download/hd-ninjas-v1.0/hd-ninjas-1.0.zip",
+      "size": 968070235,
+      "sha256": "c985429658709cb0804d9aeb0547a04aa2ad5f67490a8205c7cbe93317b1f8ad",
+      "published": "2026-10-30"
+    }
+  ]
 }
