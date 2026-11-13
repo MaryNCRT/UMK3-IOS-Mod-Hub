@@ -2,7 +2,11 @@
 /* Publishes one mod to the MOD HUB.
  *
  *   node publish.js "<path to the mod's folder>" [--id rain] [--version 1.1]
- *                   [--author "..."] [--dry]
+ *                   [--author "..."] [--essential] [--dry]
+ *
+ * --essential (or essential=1 in mod.ini): one of the ESSENTIAL MODS, the
+ * project's improvements, which the launcher's COMPILE installs with the
+ * game when its box is ticked (as it is by default).
  *
  * 1. reads the mod's mod.ini (name, author, version, category, description);
  * 2. zips the folder into dist/<id>-<version>.zip (the zip holds the folder);
@@ -32,6 +36,7 @@ function args(argv) {
     for (let i = 0; i < argv.length; i++) {
         const a = argv[i];
         if (a === '--dry') o.dry = true;
+        else if (a === '--essential') o.essential = true;
         else if (a.startsWith('--')) o[a.slice(2)] = argv[++i];
         else o._.push(a);
     }
@@ -68,7 +73,7 @@ function sha256(file) {
 
 const o = args(process.argv.slice(2));
 if (o._.length !== 1) {
-    console.error('usage: node publish.js "<mod folder>" [--id id] [--version v] [--author name] [--dry]');
+    console.error('usage: node publish.js "<mod folder>" [--id id] [--version v] [--author name] [--essential] [--dry]');
     process.exit(2);
 }
 const dir = path.resolve(o._[0]);
@@ -116,6 +121,8 @@ const entry = {
     size, sha256: sum,
     published: new Date().toISOString().slice(0, 10),
 };
+if (o.essential || String(info.essential || '') === '1')
+    entry.essential = true;
 console.log(JSON.stringify(entry, null, 2));
 if (o.dry) process.exit(0);
 
