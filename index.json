@@ -34,14 +34,14 @@
       "folder": "HD NINJAS",
       "name": "HD CHARACTERS",
       "author": "MaryNCRT",
-      "version": "1.0",
+      "version": "1.1",
       "category": "textures",
-      "description": "",
+      "description": "HD textures for the roster, with colours 3 to 6 made from them (the COLOR list on the select screen). Needs UMK3 PC 0.4.9 or newer.",
       "thumbnail": "mods/hd-ninjas/cover.png",
-      "url": "https://github.com/MaryNCRT/UMK3-IOS-Mod-Hub/releases/download/hd-ninjas-v1.0/hd-ninjas-1.0.zip",
-      "size": 968070235,
-      "sha256": "c985429658709cb0804d9aeb0547a04aa2ad5f67490a8205c7cbe93317b1f8ad",
-      "published": "2026-10-30"
+      "url": "https://github.com/MaryNCRT/UMK3-IOS-Mod-Hub/releases/download/hd-ninjas-v1.1/hd-ninjas-1.1.zip",
+      "size": 1724972239,
+      "sha256": "d6901aa88dacb9502f72ddf9804081173c1d3c90e43f28e378fcd841c5e9e7a1",
+      "published": "2026-11-13"
     }
   ]
 }
