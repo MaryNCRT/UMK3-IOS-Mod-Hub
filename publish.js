@@ -24,7 +24,7 @@ const { spawnSync } = require('child_process');
 
 const REPO = 'MaryNCRT/UMK3-IOS-Mod-Hub';
 const DL = 'https://github.com/' + REPO + '/releases/download/';
-const CATEGORIES = ['textures', 'audio', 'music', 'models', 'mixed'];
+const CATEGORIES = ['textures', 'audio', 'music', 'models', 'mixed', 'skin'];
 const here = __dirname;
 
 function args(argv) {
@@ -43,7 +43,7 @@ function readIni(file) {
     let text = '';
     try { text = fs.readFileSync(file, 'utf8'); } catch { return out; }
     for (const line of text.split(/\r?\n/)) {
-        const m = /^\s*([A-Za-z_]+)\s*=\s*(.*?)\s*$/.exec(line);
+        const m = /^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*?)\s*$/.exec(line);
         if (m) out[m[1].toLowerCase()] = m[2];
     }
     return out;

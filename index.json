@@ -20,14 +20,14 @@
       "folder": "Sonya Blade MKX",
       "name": "Sonya Blade MKX",
       "author": "MaryNCRT",
-      "version": "1.0",
-      "category": "mixed",
-      "description": "",
+      "version": "2.0",
+      "category": "skin",
+      "description": "Sonya Blade from MKX as an outfit that adds: pick it with the SKIN box, beside the original Sonya. Two colours of its own. Needs UMK3 PC 0.4.8 or newer.",
       "thumbnail": "mods/sonya-blade-mkx/cover.png",
-      "url": "https://github.com/MaryNCRT/UMK3-IOS-Mod-Hub/releases/download/sonya-blade-mkx-v1.0/sonya-blade-mkx-1.0.zip",
-      "size": 142221015,
-      "sha256": "3a63c157e9e02b380ade3b00f5efbe8fa1bd95e788cf0dbe85291751f73c1dce",
-      "published": "2026-10-30"
+      "url": "https://github.com/MaryNCRT/UMK3-IOS-Mod-Hub/releases/download/sonya-blade-mkx-v2.0/sonya-blade-mkx-2.0.zip",
+      "size": 3801223,
+      "sha256": "05efd575ff2599cb0dbc52e6e95552c7dd875d1978a321e12a746900fb92cf25",
+      "published": "2026-11-13"
     },
     {
       "id": "hd-ninjas",

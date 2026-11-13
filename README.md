@@ -51,7 +51,9 @@ this repository, and it checks each zip's SHA-256 against `index.json`.
 - `id`: lower case, digits and `-`. It never changes: the launcher uses it to
   know a mod is installed.
 - `folder`: the folder name it gets in `mods\`.
-- `category`: `textures`, `audio`, `music`, `models` or `mixed`.
+- `category`: `textures`, `audio`, `music`, `models`, `mixed` or `skin` (an
+  outfit that adds, beside the fighter's original: its mod.ini says
+  `type=skin`; UMK3 PC 0.4.8 or newer).
 - `version`: compared number by number (`1.10` is newer than `1.9`).
 
 ## Publishing a mod (collaborators)
