@@ -42,6 +42,21 @@
       "size": 1724972239,
       "sha256": "d6901aa88dacb9502f72ddf9804081173c1d3c90e43f28e378fcd841c5e9e7a1",
       "published": "2026-11-13"
+    },
+    {
+      "id": "essentials",
+      "folder": "Essentials",
+      "name": "Essentials",
+      "author": "MaryNCRT",
+      "version": "1.0",
+      "category": "audio",
+      "description": "The project's essentials: the music of Shao Kahn's end (\"No More\", with the arcade-style death of 0.5.0) and the VS screen's \"versus\".",
+      "thumbnail": "mods/essentials/cover.png",
+      "url": "https://github.com/MaryNCRT/UMK3-IOS-Mod-Hub/releases/download/essentials-v1.0/essentials-1.0.zip",
+      "size": 2276116,
+      "sha256": "01ad47519f5f0deddffb71b5db5cac4e515d7f90d9891b5fca678263540643e3",
+      "published": "2026-11-14",
+      "essential": true
     }
   ]
 }
